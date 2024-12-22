@@ -1,0 +1,103 @@
+{
+  "categories": {
+    "Mobiles": ["Apple", "Xiaomi", "Pixel", "Realme", "Samsung", "OnePlus", "Oppo", "Vivo"],
+    "Tablets": ["Samsung", "Apple", "Lenovo", "Asus", "Microsoft", "Realme", "Huawei", "Amazon"],
+    "TVs": ["Sony", "Samsung", "LG", "Panasonic", "Toshiba", "OnePlus", "Philips", "Vu"],
+    "Laptops": ["Dell", "HP", "Asus", "Lenovo", "Acer", "Apple", "Microsoft", "MSI"]
+  },
+  "products": {
+    "Mobiles": {
+      "Apple": [
+        { "id": 1, "name": "iPhone 15", "price": "₹74925", "description": "Latest iPhone with A16 chip", "image": "iphone15.jpg" },
+        { "id": 2, "name": "iPhone 14", "price": "₹67425", "description": "Advanced features and sleek design", "image": "iphone14.jpg" },
+        { "id": 3, "name": "iPhone 13", "price": "₹59925", "description": "Compact and powerful", "image": "iphone13.jpg" },
+        { "id": 4, "name": "iPhone 12", "price": "₹52425", "description": "Great value for money", "image": "iphone12.jpg" },
+        { "id": 5, "name": "iPhone SE 2022", "price": "₹37425", "description": "Affordable iPhone with powerful features", "image": "iphone_se.jpg" },
+        { "id": 6, "name": "iPhone XR", "price": "₹34925", "description": "Budget iPhone with excellent performance", "image": "iphone_xr.jpg" },
+        { "id": 7, "name": "iPhone XS", "price": "₹39925", "description": "Premium design with great specs", "image": "iphone_xs.jpg" },
+        { "id": 8, "name": "iPhone 11", "price": "₹47425", "description": "Perfect balance of features and price", "image": "iphone11.jpg" }
+      ],
+      "Xiaomi": [
+        { "id": 9, "name": "Redmi Note 12", "price": "₹14925", "description": "Budget-friendly smartphone", "image": "redmi_note_12.jpg" },
+        { "id": 10, "name": "Mi 11X", "price": "₹29925", "description": "High performance at a great price", "image": "mi_11x.jpg" },
+        { "id": 11, "name": "Redmi Note 11", "price": "₹12425", "description": "Feature-packed budget phone", "image": "redmi_note_11.jpg" },
+        { "id": 12, "name": "Redmi 10 Prime", "price": "₹9999", "description": "Affordable smartphone with great battery life", "image": "redmi_10_prime.jpg" },
+        { "id": 13, "name": "Mi 11 Lite", "price": "₹21925", "description": "Slim and lightweight smartphone", "image": "mi_11_lite.jpg" },
+        { "id": 14, "name": "Poco X3 Pro", "price": "₹18925", "description": "Power-packed mid-range phone", "image": "poco_x3_pro.jpg" },
+        { "id": 15, "name": "Redmi K50i", "price": "₹24925", "description": "Flagship killer from Redmi", "image": "redmi_k50i.jpg" },
+        { "id": 16, "name": "Poco F4", "price": "₹29925", "description": "Affordable flagship smartphone", "image": "poco_f4.jpg" }
+      ],
+      "Pixel": [
+        { "id": 17, "name": "Pixel 7", "price": "₹59925", "description": "Google's flagship phone with AI features", "image": "pixel_7.jpg" },
+        { "id": 18, "name": "Pixel 6", "price": "₹47425", "description": "Innovative features with amazing camera", "image": "pixel_6.jpg" },
+        { "id": 19, "name": "Pixel 5a", "price": "₹34925", "description": "Mid-range phone with stock Android", "image": "pixel_5a.jpg" },
+        { "id": 20, "name": "Pixel 4a", "price": "₹24925", "description": "Compact and budget-friendly phone", "image": "pixel_4a.jpg" },
+        { "id": 21, "name": "Pixel 3 XL", "price": "₹19925", "description": "Premium phone with excellent camera", "image": "pixel_3xl.jpg" },
+        { "id": 22, "name": "Pixel 3a", "price": "₹14925", "description": "Affordable Pixel experience", "image": "pixel_3a.jpg" },
+        { "id": 23, "name": "Pixel 2 XL", "price": "₹12425", "description": "Classic Pixel with large display", "image": "pixel_2xl.jpg" },
+        { "id": 24, "name": "Pixel 2", "price": "₹9999", "description": "Affordable phone with Pixel features", "image": "pixel_2.jpg" }
+      ],
+      "Realme": [
+        { "id": 25, "name": "Realme 11 Pro", "price": "₹24925", "description": "Stylish and powerful smartphone", "image": "realme_11_pro.jpg" },
+        { "id": 26, "name": "Realme 10", "price": "₹14925", "description": "Budget smartphone with excellent features", "image": "realme_10.jpg" },
+        { "id": 27, "name": "Realme Narzo 50", "price": "₹12425", "description": "Affordable phone with gaming features", "image": "realme_narzo_50.jpg" },
+        { "id": 28, "name": "Realme C55", "price": "₹9999", "description": "Entry-level phone with good performance", "image": "realme_c55.jpg" },
+        { "id": 29, "name": "Realme GT Neo", "price": "₹29925", "description": "High-performance mid-range phone", "image": "realme_gt_neo.jpg" },
+        { "id": 30, "name": "Realme 8 Pro", "price": "₹18925", "description": "Great camera phone at a good price", "image": "realme_8_pro.jpg" },
+        { "id": 31, "name": "Realme X7", "price": "₹21925", "description": "Affordable 5G smartphone", "image": "realme_x7.jpg" },
+        { "id": 32, "name": "Realme 7 Pro", "price": "₹17425", "description": "Good all-rounder smartphone", "image": "realme_7_pro.jpg" }
+      ]
+    },
+    "Tablets": {
+        "Samsung": [
+          { "id": 33, "name": "Galaxy Tab S8", "price": "₹44925", "description": "Premium tablet for professionals", "image": "galaxy_tab_s8.jpg" },
+          { "id": 34, "name": "Galaxy Tab A8", "price": "₹19925", "description": "Affordable tablet for everyday use", "image": "galaxy_tab_a8.jpg" },
+          { "id": 35, "name": "Galaxy Tab S7 FE", "price": "₹34925", "description": "Large display with great performance", "image": "galaxy_tab_s7_fe.jpg" }
+        ],
+        "Apple": [
+          { "id": 36, "name": "iPad Pro 12.9", "price": "₹99925", "description": "High-end tablet with M1 chip", "image": "ipad_pro_12_9.jpg" },
+          { "id": 37, "name": "iPad Air", "price": "₹59925", "description": "Powerful and lightweight tablet", "image": "ipad_air.jpg" },
+          { "id": 38, "name": "iPad Mini", "price": "₹49925", "description": "Compact and powerful", "image": "ipad_mini.jpg" }
+        ],
+        "Lenovo": [
+          { "id": 39, "name": "Lenovo Tab P11 Pro", "price": "₹34925", "description": "Stylish and versatile tablet", "image": "lenovo_tab_p11_pro.jpg" },
+          { "id": 40, "name": "Lenovo Yoga Tab 11", "price": "₹24925", "description": "Innovative design for multimedia", "image": "lenovo_yoga_tab_11.jpg" },
+          { "id": 41, "name": "Lenovo Tab M10", "price": "₹14925", "description": "Budget tablet for everyday tasks", "image": "lenovo_tab_m10.jpg" }
+        ]
+      },
+      "TVs": {
+        "Sony": [
+          { "id": 42, "name": "Bravia X90J", "price": "₹89925", "description": "Stunning 4K HDR TV", "image": "bravia_x90j.jpg" },
+          { "id": 43, "name": "Bravia A80K", "price": "₹159925", "description": "OLED TV with immersive visuals", "image": "bravia_a80k.jpg" },
+          { "id": 44, "name": "Bravia W660G", "price": "₹44925", "description": "Affordable Full HD TV", "image": "bravia_w660g.jpg" }
+        ],
+        "Samsung": [
+          { "id": 45, "name": "Samsung QN90B", "price": "₹129925", "description": "QLED 4K Smart TV", "image": "samsung_qn90b.jpg" },
+          { "id": 46, "name": "Samsung Frame TV", "price": "₹79925", "description": "Art-inspired design and performance", "image": "samsung_frame_tv.jpg" },
+          { "id": 47, "name": "Samsung TU8000", "price": "₹54925", "description": "Crystal UHD Smart TV", "image": "samsung_tu8000.jpg" }
+        ],
+        "LG": [
+          { "id": 48, "name": "LG OLED C2", "price": "₹159925", "description": "Advanced OLED technology", "image": "lg_oled_c2.jpg" },
+          { "id": 49, "name": "LG NanoCell 90", "price": "₹89925", "description": "NanoCell 4K Smart TV", "image": "lg_nanocell_90.jpg" },
+          { "id": 50, "name": "LG UP7500", "price": "₹44925", "description": "Affordable UHD TV", "image": "lg_up7500.jpg" }
+        ]
+      },
+      "Laptops": {
+        "Dell": [
+          { "id": 51, "name": "Dell XPS 13", "price": "₹129925", "description": "Ultra-slim and powerful laptop", "image": "dell_xps_13.jpg" },
+          { "id": 52, "name": "Dell Inspiron 15", "price": "₹74925", "description": "Affordable performance laptop", "image": "dell_inspiron_15.jpg" },
+          { "id": 53, "name": "Dell G15", "price": "₹99925", "description": "Gaming laptop with powerful specs", "image": "dell_g15.jpg" }
+        ],
+        "HP": [
+          { "id": 54, "name": "HP Spectre x360", "price": "₹139925", "description": "Premium convertible laptop", "image": "hp_spectre_x360.jpg" },
+          { "id": 55, "name": "HP Pavilion 15", "price": "₹74925", "description": "Stylish and versatile laptop", "image": "hp_pavilion_15.jpg" },
+          { "id": 56, "name": "HP Omen 16", "price": "₹119925", "description": "High-performance gaming laptop", "image": "hp_omen_16.jpg" }
+        ],
+        "Lenovo": [
+          { "id": 57, "name": "Lenovo ThinkPad X1 Carbon", "price": "₹159925", "description": "Business laptop with durability", "image": "lenovo_thinkpad_x1_carbon.jpg" },
+          { "id": 58, "name": "Lenovo IdeaPad Slim 5", "price": "₹69925", "description": "Sleek and affordable laptop", "image": "lenovo_ideapad_slim_5.jpg" },
+          { "id": 59, "name": "Lenovo Legion 5", "price": "₹109925", "description": "Gaming laptop with powerful specs", "image": "lenovo_legion_5.jpg" }
+        ]
+    }
+  }
+}

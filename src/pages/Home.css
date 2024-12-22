@@ -1,0 +1,66 @@
+.title {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.showproducts {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Ensures 4 columns */
+  gap: 20px; /* Add spacing between items */
+  justify-items: center; /* Center items in each column */
+}
+
+.product {
+  border-radius: 15px;
+  width: 100%; /* Adjust width to fit the column */
+  max-width: 250px; /* Optional: Limit max width */
+  height: auto; /* Adjust height dynamically */
+  padding: 20px; /* Add inner spacing */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product img {
+  width: 100%; /* Ensure images fit within the product container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.product .description {
+  text-align: center;
+}
+
+.product:hover {
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.addToCartBttn {
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  min-width: 100px;
+  padding: 5px 10px; /* Use shorthand for padding */
+  border-radius: 15px;
+}
+
+.addToCartBttn:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .showproducts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* For extra small screens, make it 1 item per row */
+@media (max-width: 576px) {
+  .showproducts {
+    grid-template-columns: 1fr;
+  }
+}
